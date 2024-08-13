@@ -1,0 +1,160 @@
+{
+  "data": [
+    {
+      "range": "Array",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Backtracking",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Binary Indexed Tree",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Binary Search",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Bit Manipulation",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Breadth-First Search (BFS)",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Depth-First Search (DFS)",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Divide and Conquer",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Dynamic Programming",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Graph",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Greedy",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Hash Table",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Heap (Priority Queue)",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Linked List",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Math",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Memoization",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Minimum Spanning Tree",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Queue",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Random",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Recursion",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Segment Tree",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Shortest Path",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Sliding Window",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Sort",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Stack",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "String",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Topological Sort",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Tree",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Trie",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Two Pointers",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    },
+    {
+      "range": "Union Find",
+      "majorDimension": "COLUMNS",
+      "values": [["PROBLEM"], ["LINK"], ["DIFFICULTY"], ["APPROACH"]]
+    }
+  ],
+  "valueInputOption": "USER_ENTERED"
+}
