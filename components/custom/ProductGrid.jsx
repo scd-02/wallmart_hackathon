@@ -1,4 +1,22 @@
+"use client";
+
+import { addProductData } from "@/lib/actions/product.action";
+
 const ProductGrid = ({ title, products }) => {
+  const handleClick = () => {
+    // for testing purpose customize as you need
+    console.log("Button clicked");
+    // const product = addProductData({
+    //   brand: "samsung",
+    //   productName: "samsung galaxy s21",
+    //   productDescription: "The best android ever",
+    //   productSpecification: ["6.7-inch", "Super Retina", "XDR display"],
+    //   productImageURL: "https://via.placeholder.com 200",
+    // });
+
+    // alert("Product added successfully" + product);
+  };
+
   return (
     <section className="p-8">
       <h2 className="text-2xl font-bold mb-4">{title}</h2>
@@ -7,6 +25,7 @@ const ProductGrid = ({ title, products }) => {
           <div
             key={index}
             className="bg-white p-4 rounded shadow min-w-[200px]"
+            onClick={() => handleClick()}
           >
             <img src={product.image} alt={product.name} className="w-full" />
             <h3 className="text-lg font-bold mt-2">{product.name}</h3>
