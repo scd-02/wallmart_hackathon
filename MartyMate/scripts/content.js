@@ -115,19 +115,29 @@ function appendGenerateDialog(productTitle) {
     productTitle.insertAdjacentElement('afterend', div);
 }
 
-function handleSearch() {
-    const searchBox = div.querySelector('#searchBox');
-    const searchTerm = searchBox.value;
-    // Perform search logic here
-    console.log('Search term:', searchTerm);
-}
-
 function scrapeInfo(document, query) {
+    
+    // TODO: Simulate expansion of product details section to get the dire result
+    
+    // const productDescription = document.querySelector('#product-description-section .mb3').innerText
+    // const productSpecification = document.querySelector('#product-description-section .mb3').innerText
+    
     const brand = document.querySelector('#maincontent > section > main > div.flex.flex-column.h-100 > div:nth-child(2) > div > div.w_aoqv.w_wRee.w_fdPt > div > div:nth-child(2) > div a').innerText
     const productName = document.querySelector('#maincontent > section > main > div.flex.flex-column.h-100 > div:nth-child(2) > div > div.w_aoqv.w_wRee.w_fdPt > div > div:nth-child(2) > div h1').innerText
-    const productDescription = document.querySelector('#product-description-section .mb3').innerText
-    const productSpecification = document.querySelector('#product-description-section .mb3').innerText
-    console.log("Description: ", productDescription)
+    const productDescription = 'Product description goes here';
+    const productSpecification = 'Product specification goes here';
+    const productImg = document.querySelector('img.noselect.db').src;
+    uris = window.location.href.split('/')
+    const productURL = uris[4] + '/' + uris[5].split('?')[0];
+
+    chrome.runtime.sendMessage({brand, productName, productDescription, productSpecification, productImg, productURL, query, action: 'sendProductDetails'}, async (response) => {
+        try {
+            console.log("Successfully received response", response);
+            await response;
+        } catch (e) {
+            console.error(e);
+        }
+    });
 
 }
 

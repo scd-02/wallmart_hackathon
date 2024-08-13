@@ -1,10 +1,9 @@
-require('dotenv').config();
-
 document.addEventListener('DOMContentLoaded', handleUserSuggestion);
 
-function handleUserSuggestion() {
-  
+function handleUserSuggestion() { 
+  console.log("This is a friendly function here")
 }
+
 
 
 function handleUnsupportedPage() {
@@ -39,22 +38,4 @@ function handleUnsupportedPage() {
         `;
     }
   });
-}
-
-function handleDiagClick() {
-  console.log("I was clicked");
-}
-
-function handleMouseOver() {
-  const masterDiv = document.querySelector('.carousel');
-  if(masterDiv){
-    masterDiv.classList.add('opacity-50');
-  }
-}
-
-function handleMouseOut() {
-  const masterDiv = document.querySelector('.carousel');
-  if(masterDiv) {
-    masterDiv.classList.remove('opacity-50');
-  }
 }
