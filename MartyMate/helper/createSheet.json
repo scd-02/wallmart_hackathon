@@ -1,0 +1,162 @@
+{
+  "properties": {
+    "title": "Code Clipper"
+  },
+  "sheets": [
+    {
+      "properties": {
+        "title": "Array"
+      }
+    },
+    {
+      "properties": {
+        "title": "Backtracking"
+      }
+    },
+    {
+      "properties": {
+        "title": "Binary Indexed Tree"
+      }
+    },
+    {
+      "properties": {
+        "title": "Binary Search"
+      }
+    },
+    {
+      "properties": {
+        "title": "Bit Manipulation"
+      }
+    },
+    {
+      "properties": {
+        "title": "Breadth-First Search (BFS)"
+      }
+    },
+    {
+      "properties": {
+        "title": "Depth-First Search (DFS)"
+      }
+    },
+    {
+      "properties": {
+        "title": "Divide and Conquer"
+      }
+    },
+    {
+      "properties": {
+        "title": "Dynamic Programming"
+      }
+    },
+    {
+      "properties": {
+        "title": "Graph"
+      }
+    },
+    {
+      "properties": {
+        "title": "Greedy"
+      }
+    },
+    {
+      "properties": {
+        "title": "Hash Table"
+      }
+    },
+    {
+      "properties": {
+        "title": "Heap (Priority Queue)"
+      }
+    },
+    {
+      "properties": {
+        "title": "Linked List"
+      }
+    },
+    {
+      "properties": {
+        "title": "Math"
+      }
+    },
+    {
+      "properties": {
+        "title": "Memoization"
+      }
+    },
+    {
+      "properties": {
+        "title": "Minimum Spanning Tree"
+      }
+    },
+    {
+      "properties": {
+        "title": "Queue"
+      }
+    },
+    {
+      "properties": {
+        "title": "Random"
+      }
+    },
+    {
+      "properties": {
+        "title": "Recursion"
+      }
+    },
+    {
+      "properties": {
+        "title": "Segment Tree"
+      }
+    },
+    {
+      "properties": {
+        "title": "Shortest Path"
+      }
+    },
+    {
+      "properties": {
+        "title": "Sliding Window"
+      }
+    },
+    {
+      "properties": {
+        "title": "Sort"
+      }
+    },
+    {
+      "properties": {
+        "title": "Stack"
+      }
+    },
+    {
+      "properties": {
+        "title": "String"
+      }
+    },
+    {
+      "properties": {
+        "title": "Topological Sort"
+      }
+    },
+    {
+      "properties": {
+        "title": "Tree"
+      }
+    },
+    {
+      "properties": {
+        "title": "Trie"
+      }
+    },
+    {
+      "properties": {
+        "title": "Two Pointers"
+      }
+    },
+    {
+      "properties": {
+        "title": "Union Find"
+      }
+    }
+  ]
+}

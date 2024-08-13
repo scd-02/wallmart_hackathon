@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Marty Mate",
+    "description": "Generate your own ideas with Walmart",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "background": {
+      "service_worker": "scripts/background.js"
+    },
+     "content_scripts": [
+      {
+        "js": ["scripts/content.js"],
+        "matches": [
+          "https://www.walmart.com/ip/*"
+        ],
+        "css": ["styles/output.css"]
+      }
+    ],
+    "permissions": [
+      "activeTab",
+      "background",
+      "tabs",
+      "scripting",
+      "identity"
+    ]
+  }
