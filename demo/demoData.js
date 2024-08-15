@@ -1,4 +1,4 @@
-const randomProducts = [
+const trendingProducts = [
   { name: "Product 1", image: "https://via.placeholder.com/200" },
   { name: "Product 2", image: "https://via.placeholder.com/200" },
   { name: "Product 3", image: "https://via.placeholder.com/200" },
@@ -6,9 +6,9 @@ const randomProducts = [
 ];
 
 const iphoneProducts = [
-  { name: "iPhone 12 Pro Max 1", image: "https://via.placeholder.com/200" },
-  { name: "iPhone 12 Pro Max 2", image: "https://via.placeholder.com/200" },
-  { name: "iPhone 12 Pro Max 3", image: "https://via.placeholder.com/200" },
+  { name: "iPhone 12 Pro Max", image: "https://via.placeholder.com/200" },
+  { name: "iPhone 12 Pro Max", image: "https://via.placeholder.com/200" },
+  { name: "iPhone 12 Pro Max", image: "https://via.placeholder.com/200" },
 ];
 
 const dressProducts = [
@@ -19,4 +19,4 @@ const dressProducts = [
   { name: "Dress 5", image: "https://via.placeholder.com/200" },
 ];
 
-export { randomProducts, iphoneProducts, dressProducts };
+export { trendingProducts, iphoneProducts, dressProducts };
