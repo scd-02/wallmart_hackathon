@@ -16,7 +16,7 @@ export const POST = async (req) => {
       customizationQuery,
     } = await req.json();
 
-    console.log("over herer");
+    console.log("over here");
     // if (!body) {
     //   throw new Error("Request body is empty");
     // }
@@ -30,6 +30,8 @@ export const POST = async (req) => {
       productImages,
       customizationQuery,
     });
+
+    await data.save();
 
     return new NextResponse(JSON.stringify(data), {
       status: 200,

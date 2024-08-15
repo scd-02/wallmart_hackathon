@@ -868,3 +868,18 @@ video {
     --tw-ring-color: rgb(30 64 175 / var(--tw-ring-opacity));
   }
 }
+
+.gradient-button {
+  background: linear-gradient(to right, #38bdf8, #7e5be8);
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  /* border-radius: 25%; */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gradient-button:hover {
+  transform: scale(1.05);
+}
