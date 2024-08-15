@@ -6,6 +6,11 @@ const ProductSchema = new Schema(
       type: String,
       required: true,
     },
+    productURL: {
+      type: String,
+      required: true,
+      unique: true,
+    },
     productName: {
       type: String,
       required: true,
@@ -19,9 +24,13 @@ const ProductSchema = new Schema(
       required: true,
     },
     productImageURL: {
-      type: String,
+      type: [String],
       required: true,
     },
+    generatedURL: {
+      type: [String],
+      required: false
+    }
   },
   {
     timestamps: true, 
