@@ -1,20 +1,23 @@
 "use client";
 
-import { addProductData } from "@/lib/actions/product.action";
+import { useState } from "react";
+import { FaHeart } from "react-icons/fa"; // Import heart icon from react-icons
 
 const ProductGrid = ({ title, products }) => {
-  const handleClick = () => {
-    // for testing purpose customize as you need
-    console.log("Button clicked");
-    // const product = addProductData({
-    //   brand: "samsung",
-    //   productName: "samsung galaxy s21",
-    //   productDescription: "The best android ever",
-    //   productSpecification: ["6.7-inch", "Super Retina", "XDR display"],
-    //   productImageURL: "https://via.placeholder.com 200",
-    // });
+  // State to keep track of liked products
+  const [likedProducts, setLikedProducts] = useState(
+    products.map(() => false) // Initialize with false for each product
+  );
 
-    // alert("Product added successfully" + product);
+  // Function to handle like button click
+  const handleLikeClick = (index) => {
+    // Check if the product is already liked
+    if (!likedProducts[index]) {
+      // Set the product as liked
+      setLikedProducts((prevLikes) =>
+        prevLikes.map((liked, i) => (i === index ? true : liked))
+      );
+    }
   };
 
   return (
@@ -24,14 +27,27 @@ const ProductGrid = ({ title, products }) => {
         {products.map((product, index) => (
           <div
             key={index}
-            className="bg-white p-4 rounded shadow min-w-[200px]"
-            onClick={() => handleClick()}
+            className="bg-white p-4 rounded shadow min-w-[200px] cursor-pointer"
           >
-            <img src={product.image} alt={product.name} className="w-full" />
+            <img src={product.image} alt={product.name} className="w-full rounded" />
             <h3 className="text-lg font-bold mt-2">{product.name}</h3>
-            <div className="flex justify-between mt-2">
-              <button className="text-blue-500 hover:underline">Like</button>
-              <button className="text-blue-500 hover:underline">
+            <div className="flex justify-between mt-2 items-center">
+              <button
+                onClick={() => handleLikeClick(index)}
+                className={`flex items-center ${
+                  likedProducts[index] ? "text-red-500" : "text-gray-500"
+                } hover:text-red-700 transition-colors`}
+              >
+                <FaHeart
+                  className={`mr-1 ${
+                    likedProducts[index] ? "text-red-500" : "border-2 border-gray-500"
+                  }`}
+                />
+                {likedProducts[index] && <span>1</span>}
+              </button>
+              <button
+                className="text-blue-500 hover:underline"
+              >
                 More Suggestions
               </button>
             </div>
