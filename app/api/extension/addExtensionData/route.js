@@ -16,7 +16,7 @@ export const POST = async (req) => {
       customizationQuery,
     } = await req.json();
 
-    console.log("over here");
+    // console.log("over here");
     // if (!body) {
     //   throw new Error("Request body is empty");
     // }

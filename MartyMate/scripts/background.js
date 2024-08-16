@@ -28,7 +28,7 @@ chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
     catch(err) {
         console.error("Server error: Unable to save data to db");
     }
-    return true; // Indicate asynchronous response
+    return true;
 };
 
 });

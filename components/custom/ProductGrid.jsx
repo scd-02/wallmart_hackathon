@@ -25,7 +25,7 @@ const ProductGrid = ({ title, products }) => {
       likedProducts[index] = true;
 
       if (product._id) {
-        console.log(product._id, product.likeCount);
+        // console.log(product._id, product.likeCount);
         await updateProductDataById(product._id, {likeCount: product.likeCount})
         .then((response) => {
           console.log("Successfully updated the like count", response);

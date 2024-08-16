@@ -20,7 +20,7 @@ const Navbar = () => {
               className="w-64 p-2 rounded-lg bg-gray-800 border border-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
             />
           </div>
-          <a href="#" className="hover:text-gray-400 transition-colors duration-300">
+          <a href="/" className="hover:text-gray-400 transition-colors duration-300">
             Home
           </a>
           <div className="relative">

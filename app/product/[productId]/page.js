@@ -1,11 +1,16 @@
 import Image from "next/image";
 import {getProductDataById} from '@/lib/actions/product.action';
+import Navbar from "@/components/custom/Navbar";
+import Footer from "@/components/custom/Footer";                
 
 export default async function ProductPage(params){
     const { params: { productId } } = params;
-    console.log(productId);
+    // console.log(productId);
     const product = await getProductDataById(productId);
     return (
+        <>
+        <Navbar />
+
         <div className="container mx-auto p-6">
         <div className="flex flex-col md:flex-row-reverse relative items-start">
             {/* Main Product Image */}
@@ -47,5 +52,8 @@ export default async function ProductPage(params){
             </div>
         </div>
         </div>
+
+        <Footer />
+    </>
     );
 }

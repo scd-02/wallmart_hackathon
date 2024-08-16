@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Customizable Commerce",
+  title: "Marty Mate",
   description:
     "A customizable e-commerce store to enhance your customer's shopping experience",
 };

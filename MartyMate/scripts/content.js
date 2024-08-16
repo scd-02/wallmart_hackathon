@@ -1,4 +1,7 @@
 // Scraping walmart product page
+
+let productUriTemp = "";
+
 if (window.location.href.includes("https://www.walmart.com/ip/")) {
     console.log("Content.js was triggered by walmart product page");
     scrapeHandler();
@@ -12,8 +15,8 @@ function scrapeHandler() {
         if(productTitle) {
             clearInterval(checkPageLoaded);
             appendTailwindScript();
-            appendShowCaseDialog();
             appendGenerateDialog(productTitle);
+            appendShowCaseDialog();
         }
     }, 100);
 }
@@ -35,12 +38,30 @@ function appendTailwindScript() {
 function appendShowCaseDialog() {
     const button = document.createElement('button');
     button.textContent = 'View Suggestions';
-  
+    
     // Assuming you have a CSS class defined with the name 'gradient-button'
     button.classList.add('gradient-button', 'bottom-4', 'right-4', 'fixed');
   
+    button.onclick = function() {
+        
+        // CRITICAL: Hard Coding routes for demonstration
+
+        productUriTemp = document.querySelector('#maincontent > section > main > div.flex.flex-column.h-100 > div:nth-child(2) > div > div.w_aoqv.w_wRee.w_fdPt > div > div:nth-child(2) > div a').innerText;
+
+        if(productUriTemp === 'No Boundaries'){
+            window.open('https://marty-mate.vercel.app/product/66beda251c581daf9da0d4ba', '_blank');
+        } else if (productUriTemp === 'Apple'){
+            window.open('https://marty-mate.vercel.app/product/66beda251c581daf9da0d4bb', '_blank');
+        }
+         else if (productUriTemp === 'Visit the Hanes Store'){
+            window.open('https://marty-mate.vercel.app/product/66beda251c581daf9da0d4bc', '_blank');
+        }
+         else if (productUriTemp === 'Homall'){
+            window.open('https://marty-mate.vercel.app/product/66beda251c581daf9da0d4bd', '_blank');
+        }
+    };
     document.body.appendChild(button);
-  
+    
 }
 
 function appendGenerateDialog(productTitle) {
@@ -75,6 +96,7 @@ async function scrapeInfo(document, customizationQuery) {
     // const productSpecification = document.querySelector('#product-description-section .mb3').innerText
     
     const brand = document.querySelector('#maincontent > section > main > div.flex.flex-column.h-100 > div:nth-child(2) > div > div.w_aoqv.w_wRee.w_fdPt > div > div:nth-child(2) > div a').innerText
+    productUriTemp = brand;
     const productName = document.querySelector('#maincontent > section > main > div.flex.flex-column.h-100 > div:nth-child(2) > div > div.w_aoqv.w_wRee.w_fdPt > div > div:nth-child(2) > div h1').innerText
     const productDescription = 'Product description goes here';
     const productSpecification = 'Product specification goes here';
