@@ -23,7 +23,7 @@ export default async function ProductPage(params){
             <div className="w-full md:w-1/2 md:pl-10">
             <div className="flex items-center justify-between mb-4">
                 <p className="text-gray-600">{product.brand}</p>
-                <a href={product.productURL} className="text-blue-500 hover:underline">View on Walmart</a>
+                <a href={"https://walmart.com/ip/"+product.productURL} target="_blank" className="text-blue-500 hover:underline">View on Walmart</a>
             </div>
             <h2 className="text-3xl font-bold text-gray-800">{product.productName?.substring(0, 100) + "..."}</h2>
             <p className="mt-4 text-gray-600">
