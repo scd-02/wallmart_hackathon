@@ -21,34 +21,38 @@
 <p style="font-family: Arial, sans-serif;">
 MartyMate uses an advanced process to deliver a personalized shopping experience:
 
-User Input:
+<b>User Input:</b>
 
 Through the Chrome extension, users submit detailed customization queries for products they are interested in. This can include specific features, colors, sizes, or other preferences.
-Request Processing:
+
+<b>Request Processing:</b>
 
 The submitted queries are collected and processed by our system. The data is formatted and sent to Walmart’s production and design teams.
-Customization Feasibility Check:
+
+<b>Customization Feasibility Check:</b>
 
 Walmart’s team reviews the customization requests to determine their feasibility. This involves checking product availability, manufacturing constraints, and design capabilities.
-Real-Time Updates:
+
+<b>Real-Time Updates:</b>
 
 Users receive instant updates about the status of their customization requests. This includes notifications about request acceptance, progress, and estimated completion times.
-Product Visualization:
+
+<b>Product Visualization:</b>
 
 Enhanced visualization tools allow users to see a detailed preview of their customizations. This helps in ensuring that the final product matches their vision.
 
 </p>
 <h2 style="font-family: Arial, sans-serif;">🛠️ Challenges Faced</h2>
 <p style="font-family: Arial, sans-serif;">
-Integration with Existing Systems:
+<b> 1.Integration with Existing Systems:</b>
 
 Challenge: Integrating the customization platform with Walmart’s existing e-commerce infrastructure was complex due to compatibility issues and data synchronization needs.
 
-Data Privacy and Security:
+<b> 2.Data Privacy and Security:</b>
 
 Challenge: Ensuring the security and privacy of sensitive user data was a significant concern.
 
-Scalability and Performance:
+<b>3.Scalability and Performance:</b>
 
 Challenge: Handling a high volume of customization requests while maintaining performance was a major concern.
 </p>
