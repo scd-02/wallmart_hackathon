@@ -1,25 +1,18 @@
 <h1 style="font-family: Arial, sans-serif;">MartyMate</h1>
 <p style="font-family: Arial, sans-serif;">Welcome to MartyMate! Where your e-commerce dreams transform into reality. MartyMate isn’t just another shopping tool; it's a groundbreaking platform designed to revolutionize your online shopping experience. With our innovative Chrome extension, you’re no longer limited by standard options. Instead, you become the designer, the creator, and the visionary of your perfect product.</p>
+<h2 style="font-family: Arial, sans-serif;">Key Features</h2>
 
-🌟 Key Features
-🚀 Chrome Extension: Seamlessly submit your wildest customization ideas directly from your browser. Transform ordinary products into your personalized masterpieces with just a few clicks.
+<p style="font-family: Arial, sans-serif;">
+- 🚀 Chrome Extension: Seamlessly submit your wildest customization ideas directly from your browser. Transform ordinary products into your personalized masterpieces with just a few clicks.
 
-🌐 Personalization Dashboard: Dive into a world where you control every detail of your shopping journey. Manage, track, and refine your customization requests effortlessly.
+- 🌐 Personalization Dashboard: Dive into a world where you control every detail of your shopping journey. Manage, track, and refine your customization requests effortlessly.
 
-💬 Real-Time Support Chat: Encounter a question or need guidance? Our real-time chat feature connects you with experts ready to assist and make your vision come true.
+- 📝 Customization Feedback: Voice your opinions and suggestions to shape the future of product customization. Your feedback drives the evolution of the experience.
 
-📝 Customization Feedback: Voice your opinions and suggestions to shape the future of product customization. Your feedback drives the evolution of the experience.
+- 🌟 Save Customization Offline: No internet? No problem! Continue crafting your perfect product offline and sync when you're back online.
 
-🌟 Save Customization Offline: No internet? No problem! Continue crafting your perfect product offline and sync when you're back online.
+- 🎨 Enhanced Product Visualization: See your customizations in stunning detail with our improved visualization tools. Every feature, every color, perfectly displayed.
 
-📦 Order Status Tracker: Stay in the loop with real-time updates on your customization requests. Know exactly where your creations stand in the production process.
+- 🔗 API/Web-hooks Integration: Connect with Walmart’s systems like never before. Automate processes and integrate deeply for a flawless experience.
 
-🔌 Integration Plugins: Expand your MartyMate experience with powerful plugins that integrate seamlessly with other tools and services.
-
-🎨 Enhanced Product Visualization: See your customizations in stunning detail with our improved visualization tools. Every feature, every color, perfectly displayed.
-
-🔧 Customizable Widgets: Access key information and tools quickly with widgets tailored to your needs. Your dashboard, your way.
-
-🔗 API/Web-hooks Integration: Connect with Walmart’s systems like never before. Automate processes and integrate deeply for a flawless experience.
-
-💬 Community Interaction: Join a vibrant community of fellow innovators. Share ideas, get inspired, and collaborate on making dreams a reality.
+</p>
