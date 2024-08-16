@@ -18,8 +18,8 @@ export default async function Home() {
       <main className="">
         <Header />
         <ProductGrid title="Trending Products" products={allProducts}/>
-        <ProductGrid title="iPhone 12 Pro Max" products={iphoneProducts} />
-        <ProductGrid title="Dresses" products={dressProducts} />
+        {/* <ProductGrid title="iPhone 12 Pro Max" products={iphoneProducts} /> */}
+        {/* <ProductGrid title="Dresses" products={dressProducts} /> */}
       </main>
       <Footer />
     </>

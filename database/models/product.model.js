@@ -27,6 +27,10 @@ const ProductSchema = new Schema(
       type: [String],
       required: true,
     },
+    likeCount:{
+      type: Number,
+      required: true,
+    },
     generatedURL: {
       type: [String],
       required: false

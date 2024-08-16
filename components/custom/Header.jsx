@@ -108,7 +108,7 @@ export default function Header() {
         </div>
       </div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white p-6">
-        <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold mb-4">Welcome to Wallmart Design</h1>
+        <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold mb-4">Welcome to Walmart Design</h1>
         <p className="text-xl md:text-2xl lg:text-3xl mb-8">Find and Design the product according to your choice</p>
       </div>
     </header>

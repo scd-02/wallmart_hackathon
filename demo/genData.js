@@ -28,6 +28,10 @@ const ProductSchema = new mongoose.Schema(
         type: [String],
         required: true,
       },
+      likeCount: {
+        type: Number,
+        required: true,
+      },
       generatedURL: {
         type: [String],
         required: false
@@ -53,7 +57,8 @@ const products = [
             "https://imgur.com/C05e1nL.jpeg",
             "https://imgur.com/6kQ2k3o.jpeg",
             "https://imgur.com/6YyuEye.jpeg"
-        ]
+        ],
+        likeCount: 30
     },
     {
         brand: "Apple",
@@ -69,7 +74,8 @@ const products = [
             "https://imgur.com/vqTsZhK.jpeg", 
             "https://imgur.com/JNcyVhR.jpeg",
             "https://imgur.com/4xiuuQQ.jpeg"
-        ]
+        ],
+        likeCount: 24
     },
     {
         brand: "Hanes Store",
@@ -85,7 +91,8 @@ const products = [
             "https://imgur.com/MBs53zb.jpeg", 
             "https://imgur.com/4g2pHCk.jpeg",
             "https://imgur.com/BRjoW87.jpeg"
-        ]
+        ],
+        likeCount: 22
     },
     {
         brand: "Homall",
@@ -101,7 +108,8 @@ const products = [
             "https://imgur.com/TqdUPke.jpeg", 
             "https://imgur.com/Wl4UgUn.jpeg",
             "https://imgur.com/fYanqYi.jpeg"
-        ]
+        ],
+        likeCount: 20
     },
 ];
 

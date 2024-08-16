@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 bg-gray-900 text-white p-4 shadow-md z-10">
+    <nav className="sticky top-0 bg-gray-900 text-white p-4 shadow-md z-40">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl font-bold">
           <a href="#" className="hover:text-gray-400 transition-colors duration-300">Logo</a>
