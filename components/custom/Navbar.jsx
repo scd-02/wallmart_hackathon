@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="sticky top-0 bg-gray-900 text-white p-4 shadow-md z-40">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl font-bold">
-          <a href="#" className="hover:text-gray-400 transition-colors duration-300">Logo</a>
+          <a href="#" className="hover:text-gray-400 transition-colors duration-300">Marty-Mate</a>
         </div>
         
         <div className="flex items-center space-x-6">
