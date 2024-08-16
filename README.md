@@ -44,17 +44,11 @@ Enhanced visualization tools allow users to see a detailed preview of their cust
 </p>
 <h2 style="font-family: Arial, sans-serif;">🛠️ Challenges Faced</h2>
 <p style="font-family: Arial, sans-serif;">
-<b> 1.Integration with Existing Systems:</b>
+<b> 1.Integration with Existing Systems:</b> Integrating the customization platform with Walmart’s existing e-commerce infrastructure was complex due to compatibility issues and data synchronization needs.
 
-Challenge: Integrating the customization platform with Walmart’s existing e-commerce infrastructure was complex due to compatibility issues and data synchronization needs.
+<b> 2.Data Privacy and Security:</b> Ensuring the security and privacy of sensitive user data was a significant concern.
 
-<b> 2.Data Privacy and Security:</b>
-
-Challenge: Ensuring the security and privacy of sensitive user data was a significant concern.
-
-<b>3.Scalability and Performance:</b>
-
-Challenge: Handling a high volume of customization requests while maintaining performance was a major concern.
+<b>3.Scalability and Performance:</b> Handling a high volume of customization requests while maintaining performance was a major concern.
 </p>
 <h2 style="font-family: Arial, sans-serif;">🚀 Upcoming Features
 </h2>
