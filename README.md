@@ -3,16 +3,19 @@
 <h2 style="font-family: Arial, sans-serif;">Key Features</h2>
 
 <p style="font-family: Arial, sans-serif;">
-- 🚀 Chrome Extension: Seamlessly submit your wildest customization ideas directly from your browser. Transform ordinary products into your personalized masterpieces with just a few clicks.
 
-- 🌐 Personalization Dashboard: Dive into a world where you control every detail of your shopping journey. Manage, track, and refine your customization requests effortlessly.
+🚀 Chrome Extension: Seamlessly submit your wildest customization ideas directly from your browser. Transform ordinary products into your personalized masterpieces with just a few clicks.
 
-- 📝 Customization Feedback: Voice your opinions and suggestions to shape the future of product customization. Your feedback drives the evolution of the experience.
+🌐 Personalization Dashboard: Dive into a world where you control every detail of your shopping journey. Manage, track, and refine your customization requests effortlessly.
 
-- 🌟 Save Customization Offline: No internet? No problem! Continue crafting your perfect product offline and sync when you're back online.
+📝 Customization Feedback: Voice your opinions and suggestions to shape the future of product customization. Your feedback drives the evolution of the experience.
 
-- 🎨 Enhanced Product Visualization: See your customizations in stunning detail with our improved visualization tools. Every feature, every color, perfectly displayed.
+🌟 Save Customization Offline: No internet? No problem! Continue crafting your perfect product offline and sync when you're back online.
 
-- 🔗 API/Web-hooks Integration: Connect with Walmart’s systems like never before. Automate processes and integrate deeply for a flawless experience.
+🎨 Enhanced Product Visualization: See your customizations in stunning detail with our improved visualization tools. Every feature, every color, perfectly displayed.
+
+🔧 Customizable Widgets: Access key information and tools quickly with widgets tailored to your needs. Your dashboard, your way.
+
+🔗 API/Web-hooks Integration: Connect with Walmart’s systems like never before. Automate processes and integrate deeply for a flawless experience.
 
 </p>
